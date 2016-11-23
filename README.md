@@ -6,13 +6,13 @@
 
 ### Clone StatelyExample
 
-```bash
+```sh
 git clone git@github.com:softwarenerd/StatelyExample.git
 ```
 
 ### Build Dependencies
 
-```bash
+```sh
 carthage bootstrap --platform macOS
 ```
 

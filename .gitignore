@@ -19,4 +19,5 @@ xcuserdata/
 # Carthage
 Carthage
 
-AppStoreBuild
+# VisualStudio Code
+.vscode

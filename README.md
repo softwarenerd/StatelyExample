@@ -13,7 +13,7 @@ git clone git@github.com:softwarenerd/StatelyExample.git
 ### Build Dependencies
 
 ```bash
-carthage bootstrap
+carthage bootstrap --platform macOS
 ```
 
 ### Open and run StatelyExample

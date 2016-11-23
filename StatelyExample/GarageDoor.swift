@@ -223,6 +223,7 @@ class GarageDoor {
                 do {
                     try strongSelf.stateMachine?.fireEvent(event: strongSelf.eventSensorOpened)
                 } catch {
+                    // Break the door.
                     strongSelf.doorBroken()
                 }
             }
@@ -253,6 +254,7 @@ class GarageDoor {
                 do {
                     try strongSelf.stateMachine?.fireEvent(event: strongSelf.eventSensorClosed)
                 } catch {
+                    // Break the door.
                     strongSelf.doorBroken()
                 }
             }

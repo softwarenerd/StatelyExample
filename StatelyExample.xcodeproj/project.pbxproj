@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A270D3311DBE6FCE004D1A43 /* Stately.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27D9B771DAFFC3500622302 /* Stately.framework */; };
+		A270D3321DBE6FCE004D1A43 /* Stately.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A27D9B771DAFFC3500622302 /* Stately.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A270D3351DBE8D48004D1A43 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = A270D3341DBE8D48004D1A43 /* Cartfile */; };
+		A27D9B681DAFF68000622302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D9B671DAFF68000622302 /* AppDelegate.swift */; };
+		A27D9B6A1DAFF68000622302 /* GarageDoorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27D9B691DAFF68000622302 /* GarageDoorViewController.swift */; };
+		A27D9B6C1DAFF68000622302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27D9B6B1DAFF68000622302 /* Assets.xcassets */; };
+		A27D9B6F1DAFF68000622302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27D9B6D1DAFF68000622302 /* Main.storyboard */; };
+		D316A9CE1DC3E824009F5710 /* GarageDoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D316A9CD1DC3E824009F5710 /* GarageDoor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A270D3331DBE6FCE004D1A43 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A270D3321DBE6FCE004D1A43 /* Stately.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A270D3341DBE8D48004D1A43 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		A27D9B641DAFF68000622302 /* StatelyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatelyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27D9B671DAFF68000622302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27D9B691DAFF68000622302 /* GarageDoorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageDoorViewController.swift; sourceTree = "<group>"; };
+		A27D9B6B1DAFF68000622302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27D9B6E1DAFF68000622302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27D9B701DAFF68000622302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27D9B771DAFFC3500622302 /* Stately.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Stately.framework; path = Carthage/Build/Mac/Stately.framework; sourceTree = "<group>"; };
+		D316A9CD1DC3E824009F5710 /* GarageDoor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarageDoor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27D9B611DAFF68000622302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A270D3311DBE6FCE004D1A43 /* Stately.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27D9B5B1DAFF68000622302 = {
+			isa = PBXGroup;
+			children = (
+				A270D3341DBE8D48004D1A43 /* Cartfile */,
+				A27D9B661DAFF68000622302 /* StatelyExample */,
+				A27D9B651DAFF68000622302 /* Products */,
+				A27D9B761DAFFC3500622302 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A27D9B651DAFF68000622302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27D9B641DAFF68000622302 /* StatelyExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27D9B661DAFF68000622302 /* StatelyExample */ = {
+			isa = PBXGroup;
+			children = (
+				A27D9B671DAFF68000622302 /* AppDelegate.swift */,
+				A27D9B6B1DAFF68000622302 /* Assets.xcassets */,
+				D316A9CD1DC3E824009F5710 /* GarageDoor.swift */,
+				A27D9B691DAFF68000622302 /* GarageDoorViewController.swift */,
+				A27D9B701DAFF68000622302 /* Info.plist */,
+				A27D9B6D1DAFF68000622302 /* Main.storyboard */,
+			);
+			path = StatelyExample;
+			sourceTree = "<group>";
+		};
+		A27D9B761DAFFC3500622302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A27D9B771DAFFC3500622302 /* Stately.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27D9B631DAFF68000622302 /* StatelyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27D9B731DAFF68000622302 /* Build configuration list for PBXNativeTarget "StatelyExample" */;
+			buildPhases = (
+				A27D9B601DAFF68000622302 /* Sources */,
+				A27D9B611DAFF68000622302 /* Frameworks */,
+				A27D9B621DAFF68000622302 /* Resources */,
+				A2617C151DB026E90093484B /* ShellScript */,
+				A270D3331DBE6FCE004D1A43 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatelyExample;
+			productName = StatelyExample;
+			productReference = A27D9B641DAFF68000622302 /* StatelyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27D9B5C1DAFF68000622302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Softwarenerd;
+				TargetAttributes = {
+					A27D9B631DAFF68000622302 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6B5V5J8CTY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A27D9B5F1DAFF68000622302 /* Build configuration list for PBXProject "StatelyExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27D9B5B1DAFF68000622302;
+			productRefGroup = A27D9B651DAFF68000622302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27D9B631DAFF68000622302 /* StatelyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27D9B621DAFF68000622302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A270D3351DBE8D48004D1A43 /* Cartfile in Resources */,
+				A27D9B6C1DAFF68000622302 /* Assets.xcassets in Resources */,
+				A27D9B6F1DAFF68000622302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2617C151DB026E90093484B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Stately.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27D9B601DAFF68000622302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27D9B6A1DAFF68000622302 /* GarageDoorViewController.swift in Sources */,
+				D316A9CE1DC3E824009F5710 /* GarageDoor.swift in Sources */,
+				A27D9B681DAFF68000622302 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A27D9B6D1DAFF68000622302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27D9B6E1DAFF68000622302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27D9B711DAFF68000622302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27D9B721DAFF68000622302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A27D9B741DAFF68000622302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6B5V5J8CTY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = StatelyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.StatelyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A27D9B751DAFF68000622302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6B5V5J8CTY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = StatelyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.softwarenerd.StatelyExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27D9B5F1DAFF68000622302 /* Build configuration list for PBXProject "StatelyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27D9B711DAFF68000622302 /* Debug */,
+				A27D9B721DAFF68000622302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27D9B731DAFF68000622302 /* Build configuration list for PBXNativeTarget "StatelyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27D9B741DAFF68000622302 /* Debug */,
+				A27D9B751DAFF68000622302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27D9B5C1DAFF68000622302 /* Project object */;
+}

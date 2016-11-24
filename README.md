@@ -6,7 +6,7 @@
 
 <img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
 
-Here's a state diagram for the garage door:
+StateExample uses the following state machine:
 
 <img src="Documentation/StateDiagram.png" alt="Screen Shot" width="800"/>
 

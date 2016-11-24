@@ -2,9 +2,7 @@
 
 ## Introduction 
 
-[StatelyExample](https://github.com/softwarenerd/StatelyExample) is an example application for [Stately](https://github.com/softwarenerd/Stately).
-
-StatelyExample uses Stately to simulate a garage door.
+[StatelyExample](https://github.com/softwarenerd/StatelyExample) is an example application for [Stately](https://github.com/softwarenerd/Stately) that simulates a garage door state machine.
 
 <img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
 

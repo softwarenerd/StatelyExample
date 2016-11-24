@@ -6,7 +6,7 @@
 
 <img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
 
-StateExample uses the following state machine to model a typical garage door:
+StateExample uses the following state machine to model a garage door:
 
 <img src="Documentation/StateDiagram.png" alt="Screen Shot" width="800"/>
 

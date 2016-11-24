@@ -6,6 +6,10 @@
 
 <img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
 
+Here's a state diagram for the garage door:
+
+<img src="Documentation/StateDiagram.png" alt="Screen Shot" width="800"/>
+
 ## Getting Started
 
 ### Clone StatelyExample

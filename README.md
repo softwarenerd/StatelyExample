@@ -12,7 +12,7 @@
 
 <img src="Documentation/StateDiagram.png" alt="Screen Shot" width="800"/>
 
-This state machine simulates the states and events of a singe-button garage door opener.
+This state machine simulates the states and events of a single-button garage door opener.
 
 ## Getting Started
 

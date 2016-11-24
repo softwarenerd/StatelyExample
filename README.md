@@ -4,6 +4,8 @@
 
 [StatelyExample](https://github.com/softwarenerd/StatelyExample) is an example application for [Stately](https://github.com/softwarenerd/Stately).
 
+<img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
+
 ### Clone StatelyExample
 
 ```sh

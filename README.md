@@ -6,9 +6,13 @@
 
 <img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
 
-StateExample uses the following state machine to simulate the states and events of a singe-button garage door opener:
+### State Machine
+
+[StatelyExample](https://github.com/softwarenerd/StatelyExample) uses [Stately](https://github.com/softwarenerd/Stately) to build the state machine in the following diagram:
 
 <img src="Documentation/StateDiagram.png" alt="Screen Shot" width="800"/>
+
+This state machine simulates the states and events of a singe-button garage door opener.
 
 ## Getting Started
 

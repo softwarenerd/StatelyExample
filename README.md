@@ -2,11 +2,11 @@
 
 ## Introduction 
 
-[StatelyExample](https://github.com/softwarenerd/StatelyExample) is an example application for [Stately](https://github.com/softwarenerd/Stately) that simulates a garage door state machine.
+[StatelyExample](https://github.com/softwarenerd/StatelyExample) is an example application for [Stately](https://github.com/softwarenerd/Stately) that simulates a single-button garage door opener.
 
 <img src="Documentation/ScreenShot.png" alt="Screen Shot" width="400"/>
 
-StateExample uses the following state machine to model a garage door:
+StateExample uses the following state machine to simulate the states and events of a singe-button garage door opener:
 
 <img src="Documentation/StateDiagram.png" alt="Screen Shot" width="800"/>
 
